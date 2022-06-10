@@ -29,7 +29,6 @@ int main()
                     asc = asc + k;
                     cout << (char)asc;
                 }
-                
             }
             else if (asc > 96 && asc < 123)
             {
