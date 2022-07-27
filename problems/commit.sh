@@ -1,6 +1,6 @@
 #!/bin/bash
 YELLOW='\033[0;33m'
-printf "${YELLOW}Deleting .EXE Files..."
+printf "${YELLOW}Deleting .EXE Files...\n\n"
 rm -f {*.exe,.*.exe}
 git add .
 git commit -m "new changes made to the reference"
